@@ -1,7 +1,6 @@
 " Use the Solarized Dark theme
 set background=dark
-colorscheme solarized
-let g:solarized_termtrans=1
+colorscheme slate
 
 " Make Vim more useful
 set nocompatible
@@ -11,8 +10,6 @@ set clipboard=unnamed
 set wildmenu
 " Allow cursor keys in insert mode
 set esckeys
-" Allow backspace in insert mode
-set backspace=indent,eol,start
 " Optimize for fast terminal connections
 set ttyfast
 " Add the g flag to search/replace by default
@@ -51,10 +48,14 @@ set tabstop=2
 " Show “invisible” characters
 set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
 set list
-" Highlight searches
-set hlsearch
+" No highlight searches
+set nohlsearch
+" ...just highlight as we type
+set incsearch
 " Ignore case of searches
 set ignorecase
+" ...except if we input a capital letter
+set smartcase
 " Highlight dynamically as pattern is typed
 set incsearch
 " Always show status line
@@ -80,8 +81,6 @@ if exists("&relativenumber")
 	set relativenumber
 	au BufReadPost * set relativenumber
 endif
-" Start scrolling three lines before the horizontal window border
-set scrolloff=3
 
 " Strip trailing whitespace (,ss)
 function! StripWhitespace()
@@ -104,3 +103,60 @@ if has("autocmd")
 	" Treat .md files as Markdown
 	autocmd BufNewFile,BufRead *.md setlocal filetype=markdown
 endif
+
+
+" ============
+" From necolas
+" ============
+
+" 256 colours, please
+set t_Co=256
+
+" Set relevant filetypes
+au BufRead,BufNewFile *.scss set filetype=css
+
+" Tabs, indentation and lines
+
+filetype plugin indent on
+" tabs are tabs, indented for 2
+set shiftwidth=2
+set tabstop=2
+set softtabstop=2
+" Round indent to nearest multiple of 2
+set shiftround
+" No line-wrapping
+set nowrap
+
+" Interactions
+
+" Start scrolling slightly before the cursor reaches an edge
+set scrolloff=3
+set sidescrolloff=5
+" Scroll sideways a character at a time, rather than a screen at a time
+set sidescroll=1
+" Allow motions and back-spacing over line-endings etc
+set backspace=indent,eol,start
+set whichwrap=h,l,b,<,>,~,[,]
+" Underscores denote words
+set iskeyword-=_
+
+" Visual decorations
+
+" Allow modelines
+set modeline
+
+" Key mappings
+
+" jj to throw you into normal mode from insert mode
+inoremap jj <esc>
+" jk to throw you into normal mode from insert mode
+inoremap jk <esc>
+" Disable arrow keys (hardcore)
+map  <up>    <nop>
+imap <up>    <nop>
+map  <down>  <nop>
+imap <down>  <nop>
+map  <left>  <nop>
+imap <left>  <nop>
+map  <right> <nop>
+imap <right> <nop>

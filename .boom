@@ -1,0 +1,57 @@
+{
+  "lists": [
+    {
+      "urls": [
+        {
+          "pts": "http://support.proteusthemes.com/"
+        },
+        {
+          "cref": "http://codeable.7eer.net/c/92141/132845/2670"
+        },
+        {
+          "newsletter": "http://eepurl.com/xFPYD"
+        },
+        {
+          "findclass": "https://www.youtube.com/watch?v=V2aAEzlvyDc"
+        },
+        {
+          "bluehostref": "http://www.bluehost.com/track/proteusthemes/"
+        },
+        {
+          "pb": "http://awesomescreenshot.com/0473t82uea"
+        }
+      ]
+    },
+    {
+      "youtube": [
+        {
+          "hairpress": "http://youtu.be/whRMhLhFF2s"
+        },
+        {
+          "carpress": "https://www.youtube.com/watch?v=gJioZAdu_TM"
+        },
+        {
+          "organique": "http://youtu.be/tS1tLVXuUaU"
+        },
+        {
+          "translate": "https://www.youtube.com/watch?v=dX5hh98fNkQ"
+        },
+        {
+          "buildpress": "https://www.youtube.com/playlist?list=PLbSzJ9oeSLcdDegWN6Hv4XMsRa717sWqO"
+        }
+      ]
+    },
+    {
+      "strings": [
+        {
+          "openticket": "Please open a new ticket on http://support.proteusthemes.com/ and we will take a look."
+        }
+      ]
+    },
+    {
+      "opentickert": [
+
+      ]
+    }
+  ]
+}

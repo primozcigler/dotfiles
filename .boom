@@ -44,13 +44,8 @@
     {
       "strings": [
         {
-          "openticket": "Please open a new ticket on http://support.proteusthemes.com/ and we will take a look."
+          "openticket": "Please open a new thread or ticket on http://support.proteusthemes.com/ and we will take a look."
         }
-      ]
-    },
-    {
-      "opentickert": [
-
       ]
     }
   ]

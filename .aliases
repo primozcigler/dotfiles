@@ -29,7 +29,7 @@ fi
 alias l="ls -F ${colorflag}"
 
 # List all files colorized in long format, including dot files
-alias ll="ls -laF ${colorflag}"
+alias ll="ls -laFh ${colorflag}"
 alias la='ls -A'
 
 # List only directories

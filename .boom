@@ -18,13 +18,16 @@
           "bluehostref": "http://www.bluehost.com/track/proteusthemes/"
         },
         {
-          "pb": "http://awesomescreenshot.com/0473t82uea"
-        },
-        {
           "excerpt": "https://www.diigo.com/item/image/3rli1/32su"
         },
         {
           "import": "http://codex.wordpress.org/FAQ_Working_with_WordPress#How_do_I_Import_a_WordPress_WXR_file_when_it_says_it_is_too_large_to_import.3F"
+        },
+        {
+          "lightbox": "https://wordpress.org/plugins/fancybox-for-wordpress/"
+        },
+        {
+          "pricelist": "http://www.proteusthemes.com/pricelist.html"
         }
       ]
     },

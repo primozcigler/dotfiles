@@ -54,6 +54,9 @@
       "strings": [
         {
           "openticket": "Please open a new thread or ticket on http://support.proteusthemes.com/ and we will take a look."
+        },
+        {
+          "changelog": "#item-description__changelog"
         }
       ]
     }

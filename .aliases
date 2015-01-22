@@ -8,8 +8,8 @@ alias -- -="cd -"
 
 # git aliases
 alias gs='git status'
-alias gu='git push'
-alias gd='git pull --no-edit'
+alias gu='git push' # aka git up
+alias gd='git pull --no-edit' # aka git down
 alias gc='git commit -am '
 alias deltags='for t in `git tag`
 do
@@ -108,3 +108,6 @@ alias reload="exec $SHELL -l"
 
 # alias for the xclip
 alias xclip='xclip -selection "clipboard" '
+
+# Vagrant aliases
+alias vs='vagrant ssh'

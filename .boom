@@ -28,6 +28,9 @@
         },
         {
           "pricelist": "http://www.proteusthemes.com/pricelist.html"
+        },
+        {
+          "translate": "http://support.proteusthemes.com/hc/en-us/articles/200391371-How-to-translate-the-theme-to-some-other-language-"
         }
       ]
     },

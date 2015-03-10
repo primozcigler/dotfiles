@@ -6,9 +6,6 @@
           "pts": "http://support.proteusthemes.com/"
         },
         {
-          "cref": "http://codeable.7eer.net/c/92141/132845/2670"
-        },
-        {
           "newsletter": "http://eepurl.com/xFPYD"
         },
         {
@@ -34,6 +31,9 @@
         },
         {
           "forum": "http://support.proteusthemes.com/hc/communities/public/topics"
+        },
+        {
+          "cref": "https://api.referoo.co/hits/create_hit?partner_id=39&medium_id=1"
         }
       ]
     },

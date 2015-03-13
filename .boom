@@ -24,7 +24,7 @@
           "lightbox": "https://wordpress.org/plugins/fancybox-for-wordpress/"
         },
         {
-          "pricelist": "http://www.proteusthemes.com/pricelist.html"
+          "pricelist": "https://www.proteusthemes.com/pricelist.html"
         },
         {
           "translate": "http://support.proteusthemes.com/hc/en-us/articles/200391371-How-to-translate-the-theme-to-some-other-language-"
@@ -34,6 +34,9 @@
         },
         {
           "cref": "https://api.referoo.co/hits/create_hit?partner_id=39&medium_id=1"
+        },
+        {
+          "ticket": "http://support.proteusthemes.com/hc/en-us/requests/new"
         }
       ]
     },

@@ -66,6 +66,9 @@
         },
         {
           "changelog": "#item-description__changelog"
+        },
+        {
+          "refer": "Hi, please refer to http://support.proteusthemes.com/ for support."
         }
       ]
     }

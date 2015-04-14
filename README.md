@@ -76,9 +76,9 @@ Suggestions/improvements
 
 ## Author
 
-| [![twitter/mathias](http://gravatar.com/avatar/24e08a9ea84deb17ae121074d0f17125?s=70)](http://twitter.com/mathias "Follow @mathias on Twitter") |
+| [![twitter/primozcigler](http://gravatar.com/avatar/901f4989c68803f04c100c69ec1189f5?s=70)](http://twitter.com/primozcigler "Follow @primozcigler on Twitter") |
 |---|
-| [Mathias Bynens](https://primozcigler.be/) |
+| Primoz Cigler |
 
 ## Thanks to…
 

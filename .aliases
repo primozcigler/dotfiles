@@ -108,6 +108,3 @@ alias reload="exec $SHELL -l"
 
 # alias for the xclip
 alias xclip='xclip -selection "clipboard" '
-
-# Vagrant aliases
-alias vs='vagrant ssh'

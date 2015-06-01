@@ -9,6 +9,7 @@ alias -- -="cd -"
 # git aliases
 alias gs='git status'
 alias gu='git push' # aka git up
+alias gut='gu --follow-tags'
 alias gd='git pull --no-edit' # aka git down
 alias gc='git commit -am '
 alias deltags='for t in `git tag`

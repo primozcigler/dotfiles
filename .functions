@@ -3,7 +3,6 @@ function mkd() {
 	mkdir -p "$@" && cd "$_";
 }
 
-
 # Determine size of a file or total size of a directory
 function fs() {
 	if du -b /dev/null > /dev/null 2>&1; then
@@ -104,4 +103,22 @@ function o() {
 # small enough for one screen.
 function tre() {
 	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
+}
+
+# swap two files/folders
+# http://askubuntu.com/a/69971
+function swap()
+{
+	if [ $# -ne 2 ]; then
+		echo "Usage: swap file1 file2"
+	else
+		if [ -d $1 ]; then
+			local TMPFILE=$(mktemp -d)
+		else
+			local TMPFILE=$(mktemp)
+		fi
+		mv -T "$1" $TMPFILE
+		mv -T "$2" "$1"
+		mv $TMPFILE "$2"
+	fi
 }

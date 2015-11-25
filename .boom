@@ -37,6 +37,9 @@
         },
         {
           "rate": "https://www.proteusthemes.com/themeforest-images/generic/rate.gif"
+        },
+        {
+          "ie-deprecated": "https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support"
         }
       ]
     },

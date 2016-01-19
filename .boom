@@ -40,6 +40,9 @@
         },
         {
           "ie-deprecated": "https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support"
+        },
+        {
+          "personalnewsletter": "http://eepurl.com/bLlBLj"
         }
       ]
     },

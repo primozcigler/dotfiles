@@ -104,7 +104,7 @@
 
 [help]
 
-	format = web
+	format = man
 	browser = google-chrome
 
 [merge]

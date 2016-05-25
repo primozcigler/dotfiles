@@ -24,28 +24,19 @@
           "translate": "http://support.proteusthemes.com/hc/en-us/articles/200391371-How-to-translate-the-theme-to-some-other-language-"
         },
         {
-          "forum": "http://support.proteusthemes.com/hc/communities/public/topics"
-        },
-        {
           "cref": "https://api.referoo.co/hits/create_hit?partner_id=39&medium_id=1"
         },
         {
           "ticket": "http://support.proteusthemes.com/hc/en-us/requests/new"
         },
         {
-          "poll": "https://proteusthemes.typeform.com/to/fbR6Ht"
-        },
-        {
           "rate": "https://www.proteusthemes.com/themeforest-images/generic/rate.gif"
-        },
-        {
-          "ie-deprecated": "https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support"
         },
         {
           "personalnewsletter": "http://eepurl.com/bLlBLj"
         },
         {
-          "sidekickemail": "alex@sidekick.pro"
+          "css-not-free": "https://support.proteusthemes.com/hc/en-us/articles/203400532?page=1#comment_200879429"
         }
       ]
     },

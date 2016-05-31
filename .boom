@@ -24,9 +24,6 @@
           "translate": "http://support.proteusthemes.com/hc/en-us/articles/200391371-How-to-translate-the-theme-to-some-other-language-"
         },
         {
-          "cref": "https://api.referoo.co/hits/create_hit?partner_id=39&medium_id=1"
-        },
-        {
           "ticket": "http://support.proteusthemes.com/hc/en-us/requests/new"
         },
         {
@@ -37,6 +34,9 @@
         },
         {
           "css-not-free": "https://support.proteusthemes.com/hc/en-us/articles/203400532?page=1#comment_200879429"
+        },
+        {
+          "cref": "https://codeable.io/?ref=vLTGD"
         }
       ]
     },

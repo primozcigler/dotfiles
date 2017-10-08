@@ -194,3 +194,6 @@
 
 [web]
 	browser = google-chrome
+
+[grep]
+	lineNumber = true

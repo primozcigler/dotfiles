@@ -19,6 +19,7 @@ do
     git tag -d $t
 done'
 alias gl="git log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias gi="git diff"
 
 # Shortcuts
 alias dl="cd ~/Downloads"

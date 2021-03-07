@@ -22,7 +22,7 @@ ln -s "${BREW_PREFIX}/bin/gsha256sum" "${BREW_PREFIX}/bin/sha256sum"
 brew install findutils
 # Install GNU `sed`, overwriting the built-in `sed`.
 brew install gnu-sed --with-default-names
-# Install Bash 4.
+# Install a modern version of Bash.
 brew install bash
 brew install bash-completion2
 
@@ -88,14 +88,14 @@ brew install imagemagick --with-webp
 # brew install lynx
 # brew install p7zip
 # brew install pigz
-brew install pv
-brew install rename
-brew install rlwrap
+# brew install pv
+# brew install rename
+# brew install rlwrap
 brew install ssh-copy-id
 brew install tree
 # brew install vbindiff
 # brew install zopfli
-brew install gettext
+# brew install gettext
 
 # Remove outdated versions from the cellar.
 brew cleanup

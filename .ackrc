@@ -1,2 +1,4 @@
 --type-add
 css=.sass,.scss
+
+--ignore-dir=vendor
